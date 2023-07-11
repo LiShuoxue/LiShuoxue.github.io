@@ -1,3 +1,9 @@
+---
+title: Recap of DMET
+published: true
+---
+
+
 # Recap of Density Matrix Embedding Theory (DMET)
 
 ## Schmidt Decomposition of Wave function
