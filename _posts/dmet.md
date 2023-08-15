@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Recap of Density Matrix Embedding Theory (DMET)
 
 ## Schmidt Decomposition of Wave function

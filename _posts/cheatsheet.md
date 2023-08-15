@@ -1,8 +1,6 @@
 ---
-title: Quantum Chemistry Cheating Sheet
-published: true
+layout: default
 ---
 
-
-# Quantum Chemistry Chetting Sheet
+# Quantum Chemistry Cheating Sheet
 
