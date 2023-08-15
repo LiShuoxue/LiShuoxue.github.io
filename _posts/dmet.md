@@ -1,9 +1,3 @@
----
-title: Recap of DMET
-published: true
----
-
-
 # Recap of Density Matrix Embedding Theory (DMET)
 
 ## Schmidt Decomposition of Wave function
@@ -11,13 +5,13 @@ published: true
 Assume the wave function of the system can be written as:
 
 $$
-| \psi \rangle = \sum\limits_{i,j} \Psi_{ij} | \psi_i^A \rangle \otimes | \psi^B_j \rangle$$
+| \psi \rangle = \sum\limits_{i,j} \Psi_{ij} | \psi_i^A \rangle \otimes | \psi^B_j \rangle
 $$
 
 By implementing Schmidt decomposition, we can get
 
 $$
-| \psi \rangle = \sum\limits_i \sigma_i | \alpha_i \rangle \otimes | \beta_i \rangle$$
+| \psi \rangle = \sum\limits_i \sigma_i | \alpha_i \rangle \otimes | \beta_i \rangle
 $$
 
 where the $| \alpha_i \rangle$ and $| \beta_i \rangle$ are the orthornormally transformed in their own spaces. However, since we
@@ -36,9 +30,9 @@ $$
 $$
 
 and we can get the rotated Slater determinant:
-
-$$| \tilde \psi \rangle = \tilde c_1^\dagger \cdots \tilde c_N^\dagger | 0 \rangle = \det R | \psi \rangle$$
-
+$$
+| \tilde \psi \rangle = \tilde c_1^\dagger \cdots \tilde c_N^\dagger | 0 \rangle = \det R | \psi \rangle
+$$
 Only a phase factor difference to $| \psi \rangle$.
 
 For embedding problems, we\'d like to separate the system into \"fragment\" and \"environment\", which can be done by localization of the whole sets of molecular orbitals $\hat a^\dagger_\mu$, which has the relationship
@@ -101,6 +95,18 @@ $$
 $$
 
 this result shows that Slater deterninant can be separated to fragment, bath and unentangled parts, where $n_A$ electrons are allocated to $2n_A$ fragment+bath orbitals, and the unentangled ones $|\Psi_c \rangle$ remains doubly occupied.
+
+The alternative way of implementation is to SVD the off-diagonal term $\rho_{AB}$, then we devide it into 
+$$
+\rho_{AB} = U \Gamma V^\dagger = (U \Gamma_p)( \Gamma_q^{\dagger} V^\dagger) = PQ^\dagger ,
+$$
+and from the identity $P^\dagger P + Q^\dagger Q = I$, we have the following identity
+$$
+|\Gamma_p|^2 + |\Gamma_q|^2 = I
+$$
+therefore all the singular value of $\Gamma$ should $\in [0, \dfrac{1}{2}]$.
+
+
 
 ## Overview of DMET Algorithm
 
@@ -252,6 +258,9 @@ $$
 \tilde t_{PQ} = f_{PQ} - \dfrac{1}{2} \sum\limits_{RS}^{A_x + B_x} (g_{PQRS} - g_{PSRQ}) D_{RS}
 $$
 
+
+
+
 then we can write the democratic-partition energy as the form of evaluating some \"weighted Hamiltonian\" with the density matrices within the embedding space:
 $$
 \sum\limits_P^{A_x} E_P = \sum\limits_{PQ}^{A_x + B_x} \tilde t_{PQ} w_{PQ} D_{PQ} + \dfrac{1}{2} \sum\limits_{PQRS}^{A_x + B_x} g_{PQRS} W_{PQRS} \Gamma_{PQRS}
@@ -267,4 +276,3 @@ W_{PQRS} = \dfrac{1}{4} n_{A_x} (PQRS).
 $$
 
 where $n_{A_x} (PQRS)$ is the number of index within $A_x$ among $P,Q,R$ and $S$.
-
