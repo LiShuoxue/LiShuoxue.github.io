@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "Learning Theories"
-subheadline: "Theories are exciting"
+title: "Theories"
+subheadline: "Theories"
 header:
    image_fullwidth: "head_green.png"
 permalink: "/theory/"

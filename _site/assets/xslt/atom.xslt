@@ -31,7 +31,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="»This« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta name="description" content="Here is a brief introduction of myself">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
@@ -42,7 +42,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
-	<meta property="og:description" content="»This« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta property="og:description" content="Here is a brief introduction of myself">
 	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -57,7 +57,7 @@
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
 	<meta name="twitter:title" content="Atom Feed (Styled)">
-	<meta name="twitter:description" content="»This« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta name="twitter:description" content="Here is a brief introduction of myself">
 	
 	
 
@@ -139,6 +139,21 @@
 
             
             
+              <li><a  href="http://localhost:4000/info/">About Me</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
 
               <li class="has-dropdown">
                 <a  href="http://localhost:4000/theory/">Theory</a>
@@ -201,6 +216,14 @@
       
 
       <ul class="right">
+        
+
+              
+
+
+
+          
+          
         
 
               
@@ -345,10 +368,10 @@
       <div id="footer">
         <div class="row">
           <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">About This Site</h5>
+            <h5 class="shadow-black">About Me</h5>
 
             <p class="shadow-black">
-              »This« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              Here is a brief introduction of myself
               <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
@@ -357,7 +380,7 @@
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
               
-                <h5 class="shadow-black">Services</h5>
+                <h5 class="shadow-black">Links</h5>
               
             
               
@@ -378,22 +401,22 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="https://www.chan-lab.caltech.edu/" target="_blank"  title="">Chan Group</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="https://www.caltech.edu/" target="_blank"  title="">Caltech</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                    <a href="https://www.chem.pku.edu.cn/jianghgroup/" target="_blank"  title="">TMC Group</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="https://pyscf.org/" target="_blank"  title="">PySCF</a>
                   </li>
               
               </ul>
@@ -403,7 +426,7 @@
           <div class="small-6 medium-3 large-3 columns">
             
               
-                <h5 class="shadow-black">Dankeschön</h5>
+                <h5 class="shadow-black">Theme Links</h5>
               
             
               

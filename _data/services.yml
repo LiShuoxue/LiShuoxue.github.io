@@ -1,17 +1,13 @@
-- menu_name: "Services"
+- menu_name: "Links"
 
-- name: "Contact"
-  url: "/contact/"
-  title: "Contact"
+- name: "Chan Group"
+  url: "https://www.chan-lab.caltech.edu/"
 
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+- name: "Caltech"
+  url: "https://www.caltech.edu/"
 
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+- name: "TMC Group"
+  url: "https://www.chem.pku.edu.cn/jianghgroup/"
 
-- name: "sitemap.xml"
-  url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+- name: "PySCF"
+  url: "https://pyscf.org/"
