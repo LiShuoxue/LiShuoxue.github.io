@@ -1,0 +1,39 @@
+- name: GitHub
+  url: https://github.com/lishuoxue
+  class: icon-github
+  title: "Github Main Page"
+
+- name: Twitter
+  url: https://twitter.com/LiShuoxue
+  class: icon-twitter
+  title: "Twitter Main Page"
+
+- name: Bilibili
+  url: https://space.bilibili.com/646013309?spm_id_from=333.1007.0.0
+  class: icon-youtube
+  title: "Bilibili Main Page"
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: ""
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil

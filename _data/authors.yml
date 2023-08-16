@@ -1,0 +1,14 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+Shuoxue: # replace this with your info
+  name: "Shuoxue Li"
+  siterole: "Computational Chemistry"
+  uri: https://lishuoxue.github.io/
+  email: "sli7@caltech.edu"
+  twitter: "@LiShuoxue"
+# you can add more authors here
