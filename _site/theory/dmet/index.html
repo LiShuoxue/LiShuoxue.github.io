@@ -1,0 +1,832 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recap of Density Matrix Embedding Theory</title>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="Grasp the entanglement physics with linear complexity">
+	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
+	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
+	
+	
+	
+	<link rel="canonical" href="http://localhost:4000/theory/dmet/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Recap of Density Matrix Embedding Theory">
+	<meta property="og:description" content="Grasp the entanglement physics with linear complexity">
+	<meta property="og:url" content="http://localhost:4000/theory/dmet/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Main Page of Shuoxue">
+	<meta property="og:image" content="http://localhost:4000/images/dmet.jpg">
+	<meta property="article:author" content="https://www.facebook.com/phlow.media">
+
+
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="phlow">
+	<meta name="twitter:creator" content="phlow">
+	<meta name="twitter:title" content="Recap of Density Matrix Embedding Theory">
+	<meta name="twitter:description" content="Grasp the entanglement physics with linear complexity">
+	<meta name="twitter:image" content="http://localhost:4000/images/dmet.jpg">
+	
+
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+
+	
+
+	
+
+	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
+
+	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
+
+	<meta name="msapplication-TileColor" content="#fabb00">
+
+
+	
+
+	
+
+
+</head>
+<body id="top-of-page" class="post">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="hide-for-large-up"><a href="http://localhost:4000" class="icon-tree"> Main Page of Shuoxue</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/">Start</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/theory/">Theory</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/theory/dmet/">DMET</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+      
+      
+
+      <ul class="right">
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+     
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="http://localhost:4000/" title="Main Page of Shuoxue – Personal Blog">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Main Page of Shuoxue – Personal Blog">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="http://localhost:4000">Start</a>
+ 
+   
+    
+        <a href="http://localhost:4000/theory/">theory</a>
+    
+  
+    
+        <a class="current">Recap of Density Matrix Embedding Theory</a>
+    
+  
+</nav>
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+				<figure>
+					<img src="http://localhost:4000/images/dmet.jpg" width="970" alt="Recap of Density Matrix Embedding Theory" itemprop="image">
+
+					
+				</figure>
+				
+
+				<div itemprop="name">
+					<p class="subheadline">DMET</p>
+					<h1>Recap of Density Matrix Embedding Theory</h1>
+				</div>
+			</header>
+
+
+			
+			<p class="teaser" itemprop="description">
+				Grasp the entanglement physics with linear complexity
+			</p>
+			
+
+			<div itemprop="articleSection">
+			<h2 id="schmidt-decomposition-of-wave-function">Schmidt Decomposition of Wave function</h2>
+
+<p>Assume the wave function of the system can be written as:</p>
+
+\[\begin{equation}
+| \psi \rangle = \sum\limits_{i,j} \Psi_{ij} | \psi_i^A \rangle \otimes | \psi^B_j \rangle
+\end{equation}\]
+
+<p>By implementing Schmidt decomposition, we can get</p>
+
+\[\begin{equation}
+| \psi \rangle = \sum\limits_i \sigma_i | \alpha_i \rangle \otimes | \beta_i \rangle
+\end{equation}\]
+
+<p>where the \(| \alpha_i \rangle\) and \(| \beta_i \rangle\) are the orthornormally transformed in their own spaces. However, since we
+usually do not know the full correlated wave function of the system, we can start from the Slater determinant.</p>
+
+<p>The slater determinant can be written as the creation operators on the vacant:</p>
+
+\[\begin{equation}
+| \psi \rangle = \hat c^\dagger_1 \cdots \hat c^\dagger_N | 0 \rangle
+\end{equation}\]
+
+<p>where \(N\) is the number of electrons. Operating rotations <em>on the occupied orbitals</em>:</p>
+
+\[\begin{equation}
+\tilde c_k^\dagger = \sum\limits_{j=1}^N R_{jk} \hat c_j^\dagger
+\end{equation}\]
+
+<p>and we can get the rotated Slater determinant:
+\(| \tilde \psi \rangle = \tilde c_1^\dagger \cdots \tilde c_N^\dagger | 0 \rangle = \det R | \psi \rangle\)
+Only a phase factor difference to \(| \psi \rangle\).</p>
+
+<p>For embedding problems, we'd like to separate the system into "fragment" and "environment", which can be done by localization of the whole sets of molecular orbitals \(\hat a^\dagger_\mu\), which has the relationship</p>
+
+\[\begin{equation}
+\hat c^\dagger_i = \sum\limits_{\mu = 1}^n C_{\mu i}\hat a^\dagger_\mu; \tilde c^\dagger_k = \sum\limits_{\mu = 1}^n \tilde C_{\mu k} \hat a^\dagger_\mu
+\end{equation}\]
+
+<p>where \(n\) is the number of molecular orbitals (occupied + virtual), and we can find a LO-&gt;EO transformation Matrix s.t.</p>
+
+\[\begin{equation}
+\begin{aligned}
+\tilde C = CR = \begin{bmatrix} P &amp; 0 \\ Q &amp; E \end{bmatrix}
+\end{aligned}
+\end{equation}\]
+
+<p>The dimension of \(P, Q, E\) are \(n_A \times n_A,\, n_B \times n_A,\, n_B \times (N - n_A)\), respectively.</p>
+
+<p><em>Columns</em> of \(P, Q\) and \(E\) are all orthorgonal to each other. In fact it is easy to realize. Considering density matrix</p>
+
+\[\begin{equation}
+\begin{aligned}
+\rho = \tilde C \tilde C^\dagger = CC^\dagger = \begin{bmatrix} PP^\dagger &amp; PQ^\dagger \\ QP^\dagger &amp; QQ^\dagger + EE^\dagger \end{bmatrix} = \begin{bmatrix} \rho_A &amp; \rho_{AB} \\ \rho^\dagger_{AB} &amp; \rho_B \end{bmatrix}
+\end{aligned}
+\end{equation}\]
+
+<p>We diagonize \(\rho_A = U \Gamma U^\dagger\) and then we can choose</p>
+
+\[\begin{equation}
+P = U\Gamma^{1/2},\, Q = (P^{-1} \rho_{AB})^\dagger
+\end{equation}\]
+
+<p>Since</p>
+
+\[\begin{equation}
+\begin{aligned}
+I = \tilde C^\dagger \tilde C = \begin{bmatrix}P^\dagger P + Q^\dagger Q &amp; Q^\dagger E \\ E^\dagger Q &amp; E^\dagger E\end{bmatrix}
+\end{aligned}
+\end{equation}\]
+
+<p>Then we get \(P^\dagger P = \Gamma, \, Q^\dagger Q = 1 - \Gamma\) and \(Q^\dagger E = 0\).</p>
+
+<p>From \(P. Q\) and \(E\), we can define the new sets of orthonormal creaction operators for each parts:</p>
+
+\[\begin{equation}
+\begin{aligned}
+\hat c^\dagger_{A, k} = \dfrac{1}{p_k} \sum\limits_{i = 1}^{n_A} P_{ik} \hat a^\dagger_i, k = 1, 2, \cdots, n_A \\
+\hat c^\dagger_{B, k} = \dfrac{1}{q_k} \sum\limits_{j = 1}^{n_B} Q_{jk} \hat a_{j+n_A}^\dagger, k = 1, 2, \cdots, n_A \\
+\hat c^\dagger_{B, l} = \sum\limits_{j=1}^{n_B} E_{j,l} \hat a_{j+n_A}^\dagger, l = n_A + 1, \cdots, N.
+\end{aligned}
+\end{equation}\]
+
+<p>Then the Slater determinant can be written as:</p>
+
+\[\begin{equation}
+\begin{aligned}
+| \psi \rangle = \prod\limits_{i=1}^{n_A} (p_k \hat c_{A, k}^\dagger + q_k \hat c_{B, k}) \prod\limits_{l = n_A + 1}^{N} \hat c_{B, l}^\dagger | 0 \rangle \\  
+= \sum\limits_{i_1, \cdots, i_{n_A} \in \{0,1\}} \prod\limits_{k=1}^n p_k^{i_k} q_k^{1-i_k} | i_1 \cdots, i_{n_A} \rangle_A \otimes | 1-i_1, \cdots, 1-i_{n_A}; \Psi_c \rangle_B
+\end{aligned}
+\end{equation}\]
+
+<p>So, this result shows that Slater deterninant can be separated to fragment, bath and unentangled parts, 
+where \(n_A\) electrons are allocated to \(2n_A\) fragment+bath orbitals. And the unentangled ones \(|\Psi_c \rangle\) remain doubly occupied.</p>
+
+<p>The alternative way of implementation is to SVD the off-diagonal term \(\rho_{AB}\), then we devide it into</p>
+
+\[\begin{equation}
+\rho_{AB} = U \Gamma V^\dagger = (U \Gamma_p)( \Gamma_q^{\dagger} V^\dagger) = PQ^\dagger ,
+\end{equation}\]
+
+<p>and from the identity \(P^\dagger P + Q^\dagger Q = I\), we have the following identity</p>
+
+\[\begin{equation}
+|\Gamma_p|^2 + |\Gamma_q|^2 = I
+\end{equation}\]
+
+<p>therefore all the singular value of \(\Gamma\) should \(\in [0, \dfrac{1}{2}]\).</p>
+
+<h2 id="overview-of-dmet-algorithm">Overview of DMET Algorithm</h2>
+
+<h3 id="embedding-hamiltonian">Embedding Hamiltonian</h3>
+
+<p>The single-electron part of Hamiltonian in an embedded space \(A_x + B_x\) is</p>
+
+\[\begin{equation}
+\hat h^x = \sum\limits_{kl}^{\mathrm{frag+bath}} [t_{kl} + \sum\limits_{m,n}^{\mathrm{core}} [(kl|mn) - (kn|ml)] D_{mn}^{\mathrm{env},x}] \hat c_k^\dagger \hat c_l = \sum\limits_{kl}^{\mathrm{frag+bath}}
+\tilde h_{kl}^x \hat c_k^\dagger \hat c_l
+\end{equation}\]
+
+<p>Here the notation changes: \(\hat c_k\) are in the fragment+bath space. And the hole embedded Hamiltonian \(\hat H_{emb}^x\) is written as:</p>
+
+\[\begin{equation}
+\hat H_{\mathrm{emb}}^x = \sum\limits_{kl}^{\mathrm{frag+bath}}  \tilde h_{kl}^x \hat c_k^\dagger \hat c_l + \sum\limits_{klmn}^{\mathrm{frag+bath}} (kl|mn) \hat c_k^\dagger \hat c_m^\dagger \hat c_n \hat c_l - \mu_{\mathrm{glob}} \sum\limits_r^{\mathrm{frag}} \hat c^\dagger_r \hat c_r
+\end{equation}\]
+
+<h3 id="global-chemical-potential-and-correlation-potential">Global Chemical Potential and Correlation Potential</h3>
+
+<p>The <strong>global chemical potential</strong> \(\mu_{\mathrm{glob}}\) here is defined to keep the electron in the fragment site (trace of DM block) the same as $n_A$.</p>
+
+<p>In addition, in order to mimic the mean-field wave function and <strong>correlated wave function</strong>, the determination of <em>mean-field density matrix</em> can be done by adding a correlation 1-electron potential into the <em>mean-field Hartree-Fock</em>:</p>
+
+\[\begin{equation}
+\begin{aligned}
+\hat C_x = \sum\limits_{kl}^{\mathrm{frag}} u_{kl}^{x} \hat c_k^\dagger \hat c_l \\
+\hat F \leftarrow \hat F + \sum\limits_x \hat C_x
+\end{aligned}
+\end{equation}\]
+
+<p>the metric of determining \(\hat C_x\) is multiple, and one can use the similarity of 1rdm, <em>i.e.</em> minimizing the penalty function:</p>
+
+\[\begin{equation}
+\mathrm{CF_{full}}(u) = \sum\limits_x \sum\limits_{rs}^{\mathrm{frag+env}(x)} (D_{rs}^x - D_{rs}^{mf}(u)) ^ 2
+\end{equation}\]
+
+<p>in which \(D_{rs}^x\) is the density matrix of correlated wave function, 
+and \(D_{rs}^{mf}(u)\) is the density matrix from Hartree-Fock solution with the correlation potential \(\hat C_x\).</p>
+
+<p>However practically, the L2 penalty function may encounter the uncertainty problem. 
+Therefore we provided an alternative way of removing the uncertainty of correlation potential: 
+Assuming that we want to minimize a single-electron Hamiltonian \(\langle \Phi | \hat h | \Phi\) so that</p>
+
+\[\forall x, D_{rs}^{mf}(\Phi) = D_{rs}^x\]
+
+<p>and considering that the <em>dual</em> of this problem is convex:</p>
+
+\[\begin{equation}
+\max_{U} \min_{\Phi} \langle \Phi | \hat h | \Phi \rangle + \sum\limits_x \sum\limits_{rs} u_{sr}^x (D_{rs}^{mf}(\Phi) - D_{rs}^{x})
+\end{equation}\]
+
+<p>we can work on the dual problem to find optimal \(\{u_{sr}^x\}\).
+The \(\hat h\) is often chosen as the initial Fock matrix and remain fixed.</p>
+
+<h3 id="evaluation-of-dmet-energy">Evaluation of DMET Energy</h3>
+
+<p>The <strong>energy</strong> of each fragment:</p>
+
+\[\begin{equation}
+E_x = \sum\limits_{p\in A_x} [\sum\limits_{q}^{\mathrm{frag+bath}} \dfrac{t_{pq} + \tilde h_{pq}^x}{2} D_{qp}^{x} + \dfrac{1}{2} \sum\limits_{qrs}^{\mathrm{frag+bath}}(pq|rs) P_{qp|sr}^x ]
+\end{equation}\]
+
+<p>which avoids double counting of unentangled contribution to each fragment, and therefore the total energy is the summation of different parts:</p>
+
+\[\begin{equation}
+E = E_{\mathrm{nuc}} + \sum\limits_x E_x
+\end{equation}\]
+
+<p>In a nutshell, DMET approximates the total energy from the correlation energy of each parts.</p>
+
+<h2 id="details">Details</h2>
+
+<h3 id="embedding-space-hamiltonian">Embedding-space Hamiltonian</h3>
+
+<p>If we do a partial trace on the total Hamiltonian $\hat H$, for 1-electron hamiltonian, we have</p>
+
+\[\begin{equation}
+\langle \Psi_c | \hat H_1 | \Psi_c \rangle = \sum\limits_{KL}^{\mathrm{frag+bath}} t_{KL} \hat a^\dagger_K \hat a_L + \sum\limits_{PQ}^{\mathrm{core}} D_{PQ}^{\mathrm{core},x} t_{PQ}
+\end{equation}\]
+
+<p>and on 2-electron Hamiltonian, only [core*4]{.title-ref}, [emb*4]{.title-ref} and [core*2+emb*2]{.title-ref} contribution are conserved, thus we have</p>
+
+\[\begin{equation}
+\begin{aligned}
+\langle \Psi_c | \hat H_2 | \Psi_c \rangle = \dfrac{1}{2} \sum\limits_{PQRS}^{\mathrm{emb}} g_{PQRS} \hat a^\dagger_P \hat a^\dagger_R \hat a_S \hat a_Q \\ + \sum\limits_{PQ}^{\mathrm{emb}} \sum\limits_{RS}^{\mathrm{core}} (g_{PQRS} - g_{PSRQ}) D_{RS}^{\mathrm{core}, x} \hat a^\dagger_P \hat a_Q \\ 
++ \dfrac{1}{2} \sum\limits_{PQRS}^{\mathrm{core}} g_{PQRS} \Gamma_{PQRS}
+\end{aligned}
+\end{equation}\]
+
+<p>here the capitalized letters are spin-orbital indices. Thus the effective embedding hamiltonian (without constants totally contributed by core) is:</p>
+
+\[\begin{equation}
+\begin{aligned}
+\langle \Psi_c | \hat H | \Psi_c \rangle = \sum\limits_{PQ}^{\mathrm{frag+bath}} (t_{PQ} + \sum\limits_{RS}^{\mathrm{core}} (g_{PQRS} - g_{PSRQ}) D_{RS}^{\mathrm{core}, x}) \hat a^\dagger_P \hat a_Q \\ + \dfrac{1}{2} \sum\limits_{PQRS}^{\mathrm{emb}} g_{PQRS} \hat a^\dagger_P \hat a^\dagger_R \hat a_S \hat a_Q
+\end{aligned}
+\end{equation}\]
+
+<h3 id="democratic-partitioning">Democratic Partitioning</h3>
+
+<p>Considering the representation in EO basis, the impurity index in \(x\), the fragment space is \(A_x\), the bath space is \(B_x\),
+and the core/vir space is \(C_x\), then the one-electron democratic partition energy is</p>
+
+\[\begin{equation}
+\begin{aligned}
+E_{1,PQ} = \dfrac{1}{2} \langle \Psi | t_{PQ} \hat a^\dagger_P \hat a_Q  +  t_{QP} \hat a^\dagger_Q \hat a_P | \Psi \rangle = \begin{cases} \dfrac{1}{2} (t_{PQ} D_{PQ} + t_{QP} D_{QP} ), Q \in A_x + B_x; \\ 0, Q \in C_x \end{cases}
+\end{aligned}
+\end{equation}\]
+
+\[\begin{equation}
+\begin{aligned}
+E_{2,PQRS} = \dfrac{1}{8}  \langle \Psi | g_{PQRS} \hat a^\dagger_P \hat a^\dagger_R \hat a_S \hat a_Q + g_{QPRS} \hat a^\dagger_Q \hat a^\dagger_R \hat a_S \hat a_P + g_{QRPS} \hat a^\dagger_Q \hat a^\dagger_P \hat a_S \hat a_R  + g_{QRSP} \hat a^\dagger_Q \hat a^\dagger_S \hat a_P \hat a_R| \Psi \rangle
+\\ = \begin{cases} \dfrac{1}{8} (g_{PQRS} \Gamma_{PQRS} + \cdots) , QRS \in A_x + B_x ,
+\\ \dfrac{1}{8} (g_{PQRS} D_{RS} D_{PQ} + g_{QPRS} D_{QP} D_{RS} - g_{QRSP} D_{QP} D_{SR}), RS \in C_x ;
+\\ \dfrac{1}{8} (-g_{PQRS} D_{RQ} D_{PS} + g_{QRPS} D_{QR} D_{PS} + g_{QRSP} D_{QR} D_{SP}), QR \in C_x; 
+\\ -\dfrac{1}{8} (g_{QPRS} D_{QS} D_{RP} + g_{QRPS} D_{QS} D_{PR}), QS \in C_x . \end{cases}
+\end{aligned}
+\end{equation}\]
+
+<p>After the rearrangement of the index, we can get the representation of democratic-partition result for index \(P \in A_x\):</p>
+
+\[\begin{equation}
+\begin{aligned}
+E_{P} = \mathrm{Re} \sum\limits_{Q}^{A_x + B_x} (t_{PQ} + \sum\limits_{RS}^{C_x} \dfrac{1}{2} (g_{PQRS} - g_{PSRQ}) D_{RS}) D_{PQ} \\
++ \dfrac{1}{2} \sum\limits_{QRS}^{A_x + B_x} g_{PQRS} \Gamma_{PQRS}
+\end{aligned}
+\end{equation}\]
+
+<p>which corresponds to the Eq.(28) in Practical guide. 
+Here the density matrices are the \(\langle \Psi_x | \cdots | \Psi_x \rangle\) if the indices are in the embedding space, 
+and \(\langle \Psi_c | \cdots | \Psi_c \rangle\) if the indices are in the core space.</p>
+
+<p>In general case, 
+if the two wave-functions share the same core but with the different embedding-space part,
+then the result of "democratic-partition energy" is written as:</p>
+
+\[\begin{equation}
+\begin{aligned}
+E_P = \dfrac{1}{2} \sum\limits_{Q}^{A_x + B_x} (t_{PQ} + \sum\limits_{RS}^{C_x} \dfrac{1}{2} (g_{PQRS} - g_{PSRQ}) D_{RS}) D_{PQ} + \dfrac{1}{4} \sum\limits_{QRS}^{A_x + B_x} g_{PQRS} \Gamma_{PQRS} 
+\\ + \dfrac{1}{2} \sum\limits_{Q}^{A_x + B_x} (t_{QP} + \sum\limits_{RS}^{C_x} \dfrac{1}{2} (g_{QPRS} - g_{QSRP}) D_{RS}) D_{QP} + \dfrac{1}{4} \sum\limits_{QRS}^{A_x + B_x} g_{QPRS} \Gamma_{QPRS}
+\end{aligned}
+\end{equation}\]
+
+<p>in which we regard to \(\langle \Psi_x | \cdots | \Psi_y \rangle\) 
+when we talk about \(D_{PQ}\) and \(\Gamma_{PQRS}\) etc.</p>
+
+<p>Define the effecitve one-electron Hamiltonian</p>
+
+\[\begin{equation}
+\tilde t_{PQ} = t_{PQ} + \sum\limits_{RS}^{C_x} \dfrac{1}{2} (g_{PQRS} - g_{PSRQ}) D_{RS}
+\end{equation}\]
+
+<p>if we try to start from Fock matrix</p>
+
+\[\begin{equation}
+f_{PQ} = t_{PQ} + \dfrac{1}{2} \sum\limits_{RS}^{A_x + B_x + C_x} (g_{PQRS} - g_{PSRQ}) D_{RS}
+\end{equation}\]
+
+<p>then the effective one-electron Hamiltonian</p>
+
+\[\begin{equation}
+\tilde t_{PQ} = f_{PQ} - \dfrac{1}{2} \sum\limits_{RS}^{A_x + B_x} (g_{PQRS} - g_{PSRQ}) D_{RS}
+\end{equation}\]
+
+<p>then we can write the democratic-partition energy as the form of evaluating some "weighted Hamiltonian" with the density matrices within the embedding space:</p>
+
+\[\begin{equation}
+\sum\limits_P^{A_x} E_P = \sum\limits_{PQ}^{A_x + B_x} \tilde t_{PQ} w_{PQ} D_{PQ} + \dfrac{1}{2} \sum\limits_{PQRS}^{A_x + B_x} g_{PQRS} W_{PQRS} \Gamma_{PQRS}
+\end{equation}\]
+
+<p>in which the weights are:</p>
+
+\[\begin{equation}
+\begin{aligned}
+w_{PQ} = \dfrac{1}{2} n_{A_x} (PQ); \\ 
+W_{PQRS} = \dfrac{1}{4} n_{A_x} (PQRS).
+\end{aligned}
+\end{equation}\]
+
+<p>where \(n_{A_x} (PQRS)\) is the number of index within \(A_x\) among \(P,Q,R\) and \(S\).</p>
+
+			</div>
+
+			
+						<div id="page-meta" class="t30">
+				<p>
+					<!-- Look the author details up from the site config. -->
+					
+					<!-- Output author details if some exist. -->
+					
+
+				
+				<time class="icon-calendar pr20" datetime="2023-08-16T00:00:00-07:00" itemprop="datePublished"> 2023-08-16</time>
+				
+
+				<span class="icon-archive pr20"> THEORY</span>
+				<br />
+				<span class="pr20"><span class="icon-price-tag pr10"> Quantum Chemistry</span> <span class="icon-price-tag pr10"> Embedding Theory</span> </span>
+			</p>
+
+			
+			<div id="post-nav" class="row">
+				
+				<div class="medium-2 columns text-center"><a class="button small radius expand" href="http://localhost:4000/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
+				
+				<div class="medium-5 columns text-right"></div><!-- /.small-4.columns -->
+				
+			</div>
+			
+			</div><!--  /.page-meta -->
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              »This« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              <a href="http://localhost:4000/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="http://localhost:4000"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+              
+                <h5 class="shadow-black">Dankeschön</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="network-entypo" >
+                  <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
+                </li>
+            
+              
+                <li class="services-newsletter" >
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+                </li>
+            
+              
+                <li class="rss-link" >
+                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+                </li>
+            
+              
+                <li class="sitemap-link" >
+                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created with &hearts; by Shuoxue Li with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://github.com/lishuoxue" target="_blank" class="icon-github" title="Github Main Page"></a></li>
+            
+              <li><a href="https://twitter.com/LiShuoxue" target="_blank" class="icon-twitter" title="Twitter Main Page"></a></li>
+            
+              <li><a href="https://space.bilibili.com/646013309?spm_id_from=333.1007.0.0" target="_blank" class="icon-youtube" title="Bilibili Main Page"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("http://localhost:4000/images/head_green.png", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/images/head_green.png", {fade: 700});
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+	</script>
