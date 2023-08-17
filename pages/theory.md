@@ -4,7 +4,7 @@ show_meta: false
 title: "Theories"
 subheadline: "Theories"
 header:
-   image_fullwidth: "head_green.png"
+   image_fullwidth: "head_goldgate.jpg"
 permalink: "/theory/"
 ---
 <ul>

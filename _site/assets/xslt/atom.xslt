@@ -204,12 +204,6 @@
           
           
         
-
-              
-
-          
-          
-        
         
       </ul>
       
@@ -247,22 +241,6 @@
 
 
           
-          
-        
-
-              
-
-
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/search/">Search</a></li>
-
-            
-            
           
         
 

@@ -1,9 +1,14 @@
 ---
 layout              : page
-title               : "Contact"
+title               : "Contact with me!"
 meta_title          : "Contact and use our contact form"
-subheadline         : "Contact Form"
-teaser              : "Get in touch with me? Use the contact form."
+subheadline         : "Contact"
+teaser              : "Get in touch with me? Here is information!"
 permalink           : "/contact/"
+header:
+   image_fullwidth: "head_goldgate.jpg"
 ---
-If you need a fabulous contact form for your website, I suggest you use the free version of [Wufoo](http://www.wufoo.com/)
+
+Tel: (626)-360-5181
+
+Email: sli7@caltech.edu

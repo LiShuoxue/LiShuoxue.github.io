@@ -229,6 +229,10 @@
     "youtube": {
       "codepoint": 61746,
       "source": "svg-files-for-custom-font/youtube.svg"
+    },
+    "bilibili": {
+      "codepoint":61751,
+      "source": "svg-files-for-custom-font/bilibili.svg"
     }
   },
   "options": {

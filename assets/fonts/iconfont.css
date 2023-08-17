@@ -77,7 +77,8 @@
 .icon-vimeo:before,
 .icon-warning:before,
 .icon-xing:before,
-.icon-youtube:before {
+.icon-youtube:before
+{
   display: inline-block;
   font-family: "iconfont";
   font-style: normal;
