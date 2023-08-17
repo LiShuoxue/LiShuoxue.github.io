@@ -1,13 +1,13 @@
-- menu_name: "Links"
-
-- name: "Chan Group"
-  url: "https://www.chan-lab.caltech.edu/"
+- menu_name: "Institute Links"
 
 - name: "Caltech"
   url: "https://www.caltech.edu/"
 
+- name: "Peking University"
+  url: "https://english.pku.edu.cn/"
+
+- name: "Chan Group"
+  url: "https://www.chan-lab.caltech.edu/"
+
 - name: "TMC Group"
   url: "https://www.chem.pku.edu.cn/jianghgroup/"
-
-- name: "PySCF"
-  url: "https://pyscf.org/"

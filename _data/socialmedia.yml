@@ -8,6 +8,16 @@
   class: icon-twitter
   title: "Twitter Main Page"
 
+- name: LinkedIn
+  url: https://www.linkedin.com/in/shuoxue-li-5b1048254
+  class: icon-linkedin
+  title: "Linkedin Page"
+
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=9oY8JgkAAAAJ&hl
+  class: icon-feather
+  title: "Google Scholar Page"
+
 - name: Bilibili
   url: https://space.bilibili.com/646013309?spm_id_from=333.1007.0.0
   class: icon-youtube
