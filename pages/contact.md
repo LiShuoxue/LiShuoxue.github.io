@@ -6,7 +6,7 @@ subheadline         : "Contact"
 teaser              : "Get in touch with me? Here is information!"
 permalink           : "/contact/"
 header:
-   image_fullwidth: "head_goldgate.jpg"
+   image_fullwidth: "head_altadena.jpg"
 ---
 
 Tel: (626)-360-5181

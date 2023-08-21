@@ -18,13 +18,8 @@ widget1:
 widget2:
   title: "About Me"
   url: '/info/'
-  image: dmet.jpg
+  image: aboutme_main.jpg
   text: 'This is all about me...'
-widget3:
-  title: "Density Matrix Embedding Theory"
-  url: '/theory/dmet/'
-  image: dmet.jpg
-  text: '<em>Density Matrix Embedding Theory (DMET)</em> is a good method ...'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -42,4 +37,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-
